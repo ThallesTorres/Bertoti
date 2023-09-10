@@ -1,32 +1,20 @@
-import java.util.Timer;
-import java.util.TimerTask;
+import java.util.Scanner;
 
 public class App {
-
-    static int i = 0;
-
     public static void main(String[] args) {
-        Incendio incendio = new Incendio();
-        Vizinho vizinho = new Vizinho();
+        // pode ser observado
+        Publicador convidados = new Publicador();
+        // pode observar
+        Festa festa = new Festa();
 
-        incendio.addListener(vizinho);
+        convidados.adicionarObservador(festa);
+        convidados.adicionarConvidado("João");
 
-        TimerTask timerTask = new TimerTask() {
-            public void run() {
-                i++;
-                System.out.println(i);
-
-                if ((i % 5) == 0 && i <= 20) {
-
-                    for (Emergencia emergencia: incendio.listeners) {
-
-                        emergencia.notificar();
-                    }
-                }
-            }
-        };
-        Timer timer = new Timer();
-
-        timer.scheduleAtFixedRate(timerTask, 1000L, 1000L);
+        Scanner sc = new Scanner(System.in);
+        while (true) {
+            System.out.println("\nAdicionar convidado: ");
+            String nome = sc.nextLine();
+            convidados.adicionarConvidado(nome);
+        }
     }
 }
