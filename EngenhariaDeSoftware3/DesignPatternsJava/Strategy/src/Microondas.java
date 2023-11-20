@@ -3,5 +3,4 @@ public class Microondas implements Aparelho {
     public void fazerOrcamento() {
         System.out.println("Orçamento do seu Microondas: R$120");
     }
-    
 }

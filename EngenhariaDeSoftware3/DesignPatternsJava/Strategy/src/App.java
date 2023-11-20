@@ -1,20 +1,20 @@
-import java.util.Scanner;
-
 public class App {
     public static void main(String[] args) {
-        // pode ser observado
-        Publicador convidados = new Publicador();
-        // pode observar
-        Festa festa = new Festa();
+        // Criando instâncias de diferentes aparelhos
+        Aparelho notebook = new Notebook();
+        Aparelho microondas = new Microondas();
+        Aparelho tv = new Tv();
 
-        convidados.adicionarObservador(festa);
-        convidados.adicionarConvidado("João");
+        // Criando instância do cliente com um Notebook
+        Cliente carlos = new Cliente(notebook);
+        carlos.verOrcamento();
 
-        Scanner sc = new Scanner(System.in);
-        while (true) {
-            System.out.println("\nAdicionar convidado: ");
-            String nome = sc.nextLine();
-            convidados.adicionarConvidado(nome);
-        }
+        // Configurando o cliente com um Microondas e exibindo o orçamento
+        carlos.setAparelho(microondas);
+        carlos.verOrcamento();
+
+        // Configurando o cliente com uma TV e exibindo o orçamento
+        carlos.setAparelho(tv);
+        carlos.verOrcamento();
     }
 }
