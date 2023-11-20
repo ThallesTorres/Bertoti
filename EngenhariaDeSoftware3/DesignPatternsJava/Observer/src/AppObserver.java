@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 // Classe principal que contém o método main
-public class App {
+public class AppObserver {
     public static void main(String[] args) {
         // Instância de Publicador (objeto que mantém a lista de convidados e notifica os observadores)
         Publicador convidados = new Publicador();

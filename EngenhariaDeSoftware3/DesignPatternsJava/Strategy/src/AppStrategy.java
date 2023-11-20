@@ -1,4 +1,4 @@
-public class App {
+public class AppStrategy {
     public static void main(String[] args) {
         // Criando instâncias de diferentes aparelhos
         Aparelho notebook = new Notebook();
