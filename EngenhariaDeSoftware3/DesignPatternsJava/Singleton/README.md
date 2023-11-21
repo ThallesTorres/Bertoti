@@ -1,1 +1,2 @@
-![image](https://github.com/ThallesTorres/Bertoti/assets/57546200/a14d862c-599d-4861-8bc0-b0e53771cbbd)
+![image](https://github.com/ThallesTorres/Bertoti/assets/57546200/3a04326a-f7cb-4228-a912-59966040e734)
+
