@@ -1,1 +1,1 @@
-![Diagrama drawio (1)](https://github.com/ThallesTorres/Bertoti/assets/57546200/eac6ef6b-daca-440c-8d2d-2162e3bbac96)
+![image](https://github.com/ThallesTorres/Bertoti/assets/57546200/a14d862c-599d-4861-8bc0-b0e53771cbbd)
