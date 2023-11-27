@@ -1,4 +1,4 @@
-<h2 align="center">Padrões de projeto (design patterns)<h2/> 
+<p align="center">Padrões de projeto (design patterns)<p/> 
 
 <table>
   <tr>
